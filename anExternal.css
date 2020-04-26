@@ -1,0 +1,50 @@
+
+body{
+    background-color: lightblue;
+}
+
+
+
+
+.baoImg {
+    height: 50px;
+    width: 50px;
+}
+
+#memeContainer {
+    position: relative;
+}
+
+
+#zoomMeme {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+
+#memeText {
+    left: 50%;
+    border-style: dotted;
+    border-width: thin;
+    text-shadow: 5px 5px 5px purple;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#floatedSponge{
+    float: right;
+    background: yellow;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+#spongeImg{
+    width: 150px;
+}
